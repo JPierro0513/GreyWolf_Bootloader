@@ -1,41 +1,38 @@
 {
     "packages": [
       {
-        "name": "greywolf",
-        "maintainer": "Danville Signal Processing",
-        "websiteURL": "",
-        "email": "",
-        "help": {
-          "online": ""
-        },
+        "name":                     "greywolf",
+        "maintainer":               "Danville Signal Processing",
+        "websiteURL":               "",
+        "email":                    "jpierrodsp@gmail.com",
         "platforms": [
           {
-            "name": "GreyWolf",
-            "architecture": "avr",
-            "version": "0.0.1",
-            "category": "DSP",
+            "name":                 "GreyWolf",
+            "architecture":         "avr",
+            "version":              "0.0.1",
+            "category":             "DSP",
             "url": "",
-            "archiveFileName": "GreyWolf-0.0.1.zip",
-            "checksum": "SHA-256:f1e52931fe8eafe1b5c265eadf8bb28e7f9d045c2df46f41be8dc6f606fd465b",
-            "size": "31340384",
+            "archiveFileName":      "GreyWolf_Boot-0.0.1.zip",
+            "checksum":             "SHA-256:0fd57857b0880021bf924b31588eea18a43f91393eceb3f9a7d12315a7820f4d",
+            "size":                 "31268492",
             "boards": [
-              {"name": "GreyWolf"}
+              {"name":              "GreyWolf"}
             ],
             "toolsDependencies": [
               {
-                "packager": "arduino",
-                "name": "avr-gcc",
-                "version": "4.9.2-atmel3.5.4-arduino2"
+                "packager":         "arduino",
+                "name":             "avr-gcc",
+                "version":          "4.9.2-atmel3.5.4-arduino2"
               },
               {
-                "packager": "arduino",
-                "name": "avrdude",
-                "version": "6.3.0-arduino9"
+                "packager":         "arduino",
+                "name":             "avrdude",
+                "version":          "6.3.0-arduino9"
               },
               {
-                "packager": "arduino",
-                "name": "arduinoOTA",
-                "version": "1.1.1"
+                "packager":         "arduino",
+                "name":             "arduinoOTA",
+                "version":          "1.1.1"
               }
             ]
           }
