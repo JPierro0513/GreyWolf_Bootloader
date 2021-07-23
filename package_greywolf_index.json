@@ -3,7 +3,7 @@
       {
         "name":                     "greywolf",
         "maintainer":               "Danville Signal Processing",
-        "websiteURL":               "",
+        "websiteURL":               "https://danvillesignal.com/",
         "email":                    "jpierrodsp@gmail.com",
         "platforms": [
           {
@@ -11,7 +11,7 @@
             "architecture":         "avr",
             "version":              "0.0.1",
             "category":             "DSP",
-            "url": "",
+            "url":                  "https://github.com/JPierro0513/GreyWolf_Bootloader/blob/main/GreyWolf_Boot-0.0.1.zip",
             "archiveFileName":      "GreyWolf_Boot-0.0.1.zip",
             "checksum":             "SHA-256:0fd57857b0880021bf924b31588eea18a43f91393eceb3f9a7d12315a7820f4d",
             "size":                 "31268492",
