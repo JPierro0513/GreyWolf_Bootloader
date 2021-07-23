@@ -1,0 +1,48 @@
+{
+    "packages": [
+      {
+        "name": "greywolf",
+        "maintainer": "Danville Signal Processing",
+        "websiteURL": "",
+        "email": "",
+        "help": {
+          "online": ""
+        },
+        "platforms": [
+          {
+            "name": "GreyWolf",
+            "architecture": "avr",
+            "version": "0.0.1",
+            "category": "DSP",
+            "url": "",
+            "archiveFileName": "GreyWolf-0.0.1.zip",
+            "checksum": "SHA-256:f1e52931fe8eafe1b5c265eadf8bb28e7f9d045c2df46f41be8dc6f606fd465b",
+            "size": "31340384",
+            "boards": [
+              {"name": "GreyWolf"}
+            ],
+            "toolsDependencies": [
+              {
+                "packager": "arduino",
+                "name": "avr-gcc",
+                "version": "4.9.2-atmel3.5.4-arduino2"
+              },
+              {
+                "packager": "arduino",
+                "name": "avrdude",
+                "version": "6.3.0-arduino9"
+              },
+              {
+                "packager": "arduino",
+                "name": "arduinoOTA",
+                "version": "1.1.1"
+              }
+            ]
+          }
+        ],
+        "tools": [
+        ]
+      }
+    ]
+  }
+  
